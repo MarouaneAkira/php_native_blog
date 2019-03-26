@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	clear: both;
+}
+
+header {
+	background-color: black
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	text-align: right;
+	color: white;
+}
+h1, .nav-top
+{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	color: white;
+}
+h1 {
+	padding: 0;
+	margin-right: 250px;
+	width: 25%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2, p {
+	text-align: left;
+	font-family: 'Open Sans', sans-serif
+}
+
+main {
+	text-align: center;
+	display: block;
+/*	width: 75%;*/
+}
+
+article img {
+	width: 40%;
+	/*max-height: 200px;*/
+	margin: 0 auto;
+}
+
+
+
+article {
+	/*display: inline-block;*/
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+
+}
+
+footer {
+	background-color: black
+}
+
+h5, nav {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-top a {
+	color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	margin: 40px 30px;
+}
+
+main a{
+	color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.img-article{
+	height: 250px;
+    width: 100%;
+    align-items: center;
+    background-position: center -60px;
+    background-size: cover;
+}
+
+.nav-footer a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+form {
+	margin-bottom: 50px;
+}
+
+
+
+
+
